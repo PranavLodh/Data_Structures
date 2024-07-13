@@ -1,0 +1,14 @@
+C:\DSAPrep\DSAPrep\bin\Debug\net8.0\DSAPrep.exe
+C:\DSAPrep\DSAPrep\bin\Debug\net8.0\DSAPrep.deps.json
+C:\DSAPrep\DSAPrep\bin\Debug\net8.0\DSAPrep.runtimeconfig.json
+C:\DSAPrep\DSAPrep\bin\Debug\net8.0\DSAPrep.dll
+C:\DSAPrep\DSAPrep\bin\Debug\net8.0\DSAPrep.pdb
+C:\DSAPrep\DSAPrep\obj\Debug\net8.0\DSAPrep.GeneratedMSBuildEditorConfig.editorconfig
+C:\DSAPrep\DSAPrep\obj\Debug\net8.0\DSAPrep.AssemblyInfoInputs.cache
+C:\DSAPrep\DSAPrep\obj\Debug\net8.0\DSAPrep.AssemblyInfo.cs
+C:\DSAPrep\DSAPrep\obj\Debug\net8.0\DSAPrep.csproj.CoreCompileInputs.cache
+C:\DSAPrep\DSAPrep\obj\Debug\net8.0\DSAPrep.dll
+C:\DSAPrep\DSAPrep\obj\Debug\net8.0\refint\DSAPrep.dll
+C:\DSAPrep\DSAPrep\obj\Debug\net8.0\DSAPrep.pdb
+C:\DSAPrep\DSAPrep\obj\Debug\net8.0\DSAPrep.genruntimeconfig.cache
+C:\DSAPrep\DSAPrep\obj\Debug\net8.0\ref\DSAPrep.dll

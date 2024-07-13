@@ -1,0 +1,83 @@
+Array Problems
+1.Given a matrix if an element in the matrix is 0 then you will have to set its entire column and row to 0 and then return the matrix.
+Create two array row and column to set a track of which row or column to keep as 0 and then parse the matrix again and check if specific row or column is to be set as 0
+
+2.Pascals Triangle
+Set 1st and last element as 1
+Else Set as Addition of previous two numbers
+
+3.
+
+
+4.Problem Statement: Given an integer array arr, find the contiguous subarray (containing at least one number) which has the largest sum and returns its sum and prints the subarray.
+
+5.Problem Statement: Given an array consisting of only 0s, 1s, and 2s. Write a program to in-place sort the array without using inbuilt sort functions. ( Expected: Single pass-O(N) and constant space)
+Make three pointers high mid and low
+If mid is less than equal to high swap mid to high ,swap mid to low else mid++.If mid ==2 dont increase mid
+
+6.Problem Statement: You are given an array of prices where prices[i] is the price of a given stock on an ith day.
+
+You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock. Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
+
+Make three variables - currentprofit,maxprofit,bestbuyingprice
+Loop through array if current number is less than bestbuyingprice replace with bestbuyingprice and reset currentprofit else check if profit is max then replace it with currentprofit 
+
+7.Problem Statement: Given a matrix, your task is to rotate the matrix 90 degrees clockwise.
+Make a separate array and create a formula and return the matrix
+
+8.Problem Statement: Given an array of intervals, merge all the overlapping intervals and return an array of non-overlapping intervals.
+
+Make a pointer on currentInterval and loop through the list of Intervals, If interval.endIndex<=currentInterval.startIndex replace the endIndex
+else
+push currentInterval in mergeInterval and set the next interval as currentInterval
+
+9.Problem statement: Given two sorted arrays arr1[] and arr2[] of sizes n and m in non-decreasing order. Merge them in sorted order. Modify arr1 so that it contains the first N elements and modify arr2 so that it contains the last M elements.
+Make a pointer for first array and run till it reaches end of first array if element pointing the array1 is greater than b[0] swap and then sort b and increase the pointer
+
+10.Problem Statement: Given an array of N + 1 size, where each element is between 1 and N. Assuming there is only one duplicate number, your task is to find the duplicate number.
+Take the arithmetic sum of n-1 integers and subtract from total sum.
+
+11.Problem Statement: You are given a read-only array of N integers with values also in the range [1, N] both inclusive. Each integer appears exactly once except A which appears twice and B which is missing. The task is to find the repeating and missing numbers A and B where A repeats twice and B is missing.
+
+Use Dictionary to get the Duplicate Number and then use the formula idealSum - (Sum-DuplicateNumber) to get the missing Number
+
+
+
+13.Problem Statement: You have been given a 2-D array 'mat' of size 'N x M' where 'N' and 'M' denote the number of rows and columns, respectively. The elements of each row are sorted in non-decreasing order. Moreover, the first element of a row is greater than the last element of the previous row (if it exists). You are given an integer ‘target’, and your task is to find if it exists in the given 'mat' or not.
+
+Solution 1 - Loop through row Check if target is present between first and last index of row if present loop through column
+
+Solution 2 - flatten the matrix into an array and then find mid and check if target is present if less than mid then lower the high element
+
+14.Problem Statement: Given a double x and integer n, calculate x raised to power n. Basically Implement pow(x, n).
+
+Divide n by 2 and calculate the result then if n is odd return result * result * x else return result * result
+
+15. Problem Statement: Given an array of N integers, write a program to return an element that occurs more than N/2 times in the given array. You may consider that such an element always exists in the array.
+
+Loop through the array and maintain a dictionary. Keep the counter in the dictionary . If counter increases than target stop and return that number.
+
+16. Problem Statement: Given an array of N integers. Find the elements that appear more than N/3 times in the array. If no such element exists, return an empty vector.
+
+Loop through the array and maintain a dictionary and a list. Keep the counter in the dictionary . If counter increases than target check if number is already present in list if not add it in list and ultimately return the list.
+
+17. Problem Statement: Given a matrix m X n, count paths from left-top to the right bottom of a matrix with the constraints that from each cell you can either only move to the rightward direction or the downward direction.
+
+Do a recursion method which goes right and bottom .If it goes outside the bounds return 0. If it reaches the end return 1
+
+18.Problem Statement: Given an array of numbers, you need to return the count of reverse pairs. Reverse Pairs are those pairs where i<j and arr[i]>2*arr[j].
+
+Use two for loops and check if its arr[i]>2*arr[j]
+Other method is to use merge sort
+
+
+
+
+
+-----------------------------------------------------------------------------------------------
+Linked List
+1.Problem Statement: Problem Statement: Given the head of a singly linked list, write a program to reverse the linked list, and return the head pointer to the reversed list.
+
+Create another linked list and move head pointer till last and keep adding one node before in the new linked list.
+
+2.
