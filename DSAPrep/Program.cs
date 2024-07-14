@@ -141,5 +141,18 @@ using DSAPrep;
 //Array3_5.countPaths(2,3);
 
 //Array3_6
-int count = Array3_6.countReversePairs([3 ,2 ,1 ,4]);
-Console.WriteLine($"The count is {count}");
+//int count = Array3_6.countReversePairs([3 ,2 ,1 ,4]);
+//Console.WriteLine($"The count is {count}");
+
+
+//Weekly406
+LinkedList l5 = new LinkedList(5,null);
+LinkedList l4 = new LinkedList(4, l5);
+LinkedList l3 = new LinkedList(3, l4);
+LinkedList l2 = new LinkedList(2, l3);
+LinkedList l1 = new LinkedList(1, l2);
+int[] arr = { 2, 4 };
+LinkedList head = Weekly406.removeNodes(l1, arr);
+Console.WriteLine(head.value);
+
+Console.WriteLine($"Lexicographic string is {Weekly406.getSmallestString("20")}");
