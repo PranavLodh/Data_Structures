@@ -146,13 +146,17 @@ using DSAPrep;
 
 
 //Weekly406
-LinkedList l5 = new LinkedList(5,null);
-LinkedList l4 = new LinkedList(4, l5);
-LinkedList l3 = new LinkedList(3, l4);
-LinkedList l2 = new LinkedList(2, l3);
-LinkedList l1 = new LinkedList(1, l2);
-int[] arr = { 2, 4 };
-LinkedList head = Weekly406.removeNodes(l1, arr);
-Console.WriteLine(head.value);
+//LinkedList l5 = new LinkedList(5,null);
+//LinkedList l4 = new LinkedList(4, l5);
+//LinkedList l3 = new LinkedList(3, l4);
+//LinkedList l2 = new LinkedList(2, l3);
+//LinkedList l1 = new LinkedList(1, l2);
+//int[] arr = { 2, 4 };
+//LinkedList head = Weekly406.removeNodes(l1, arr);
+//Console.WriteLine(head.value);
 
-Console.WriteLine($"Lexicographic string is {Weekly406.getSmallestString("20")}");
+//Console.WriteLine($"Lexicographic string is {Weekly406.getSmallestString("20")}");
+
+//Array4_1
+int[] array = {2,6,5,8,11};
+Array4_1.Sum2Array2(array, 15);

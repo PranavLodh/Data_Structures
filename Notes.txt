@@ -70,6 +70,12 @@ Do a recursion method which goes right and bottom .If it goes outside the bounds
 Use two for loops and check if its arr[i]>2*arr[j]
 Other method is to use merge sort
 
+Array4
+1. Problem Statement: Given an array of integers arr[] and an integer target.
+1st variant: Return YES if there exist two numbers such that their sum is equal to the target. Otherwise, return NO.
+2nd variant: Return indices of the two numbers such that their sum is equal to the target. Otherwise, we will return {-1, -1}.
+
+Consider a Dictionary which contains the number and its position. Loop through the array and calculate the remainder target. Check if remainder target present in the dictionary . If yes return two numbers else add the current number into dictionary and move on.
 
 
 
