@@ -88,5 +88,62 @@ namespace DSAPrep
             return new string(chars);
         }
 
+        //Minimum Cost for cutting Cake
+        //First Sort the numbers based on Vertical and horizontal cuts in a List 
+        //and inside List there would be dictionary with horizontal cuts and number of cuts to be done as value
+        //Then loop through list and check if its horizontal cut or vertical
+        //if horizontal cut then increase the value for vertical cuts and vice versa until Loop is till the end
+        public static int CakeCutting1(int m, int n, int[] horizontalCut, int[] verticalCut)
+        {
+            List<Cut> combinedList = new List<Cut>();
+
+            foreach(int  i in horizontalCut) 
+            {
+                combinedList.Add(new Cut() { value = i , type = 'h'});
+            }
+            foreach (int i in verticalCut)
+            {
+                combinedList.Add(new Cut() { value = i, type = 'v' });
+            }
+
+            combinedList = combinedList.OrderByDescending(x => x.value).ToList();
+
+            int computedCost = 0;
+            for(int i = 0; i < combinedList.Count;i++)
+            {
+                if (combinedList[i].type == 'h')
+                    makeVerticalIncrease(i, combinedList);
+                else
+                    makeHorizontalIncrease(i,combinedList);
+
+                computedCost += combinedList[i].value * combinedList[i].noOfCuts;
+            }
+            return computedCost;
+        }
+
+        public static void makeVerticalIncrease(int position, List<Cut> combinedList)
+        {
+            for(int i = position + 1; i < combinedList.Count;i++)
+            {
+                if (combinedList[i].type == 'v')
+                    combinedList[i].noOfCuts++;
+            }
+        }
+
+        public static void makeHorizontalIncrease(int position, List<Cut> combinedList)
+        {
+            for (int i = position + 1; i < combinedList.Count; i++)
+            {
+                if (combinedList[i].type == 'h')
+                    combinedList[i].noOfCuts++;
+            }
+        }
+    }
+
+    public class Cut
+    {
+        public int value { get; set; }
+        public char type { get; set; }
+        public int noOfCuts { get; set; } = 1;
     }
 }

@@ -77,6 +77,14 @@ Array4
 
 Consider a Dictionary which contains the number and its position. Loop through the array and calculate the remainder target. Check if remainder target present in the dictionary . If yes return two numbers else add the current number into dictionary and move on.
 
+2.Problem Statement: Given an array of N integers, your task is to find unique quads that add up to give a target value. In short, you need to return an array of all the unique quadruplets [arr[a], arr[b], arr[c], arr[d]] such that their sum is equal to a given target.
+
+Create 4 for loops and get the target value
+
+Problem Statement: You are given an array of ‘N’ integers. You need to find the length of the longest sequence which contains the consecutive elements.
+
+Sort the array and a counter to keep a track on longest sequence
+
 
 
 
@@ -86,4 +94,11 @@ Linked List
 
 Create another linked list and move head pointer till last and keep adding one node before in the new linked list.
 
-2.
+2.Problem Statement: Given the head of a linked list of integers, determine the middle node of the linked list. However, if the linked list has an even number of nodes, return the second middle node.
+
+Create a fast and slow pointer
+Fast pointer should go two steps which slow pointer should move one step
+
+3.Problem Statement: Given two sorted linked lists, merge them to produce a combined sorted linked list. Return the head of the final linked list created.
+
+Create a pointer which will point current position of two LinkedList and check if current1 < current2 then insert the value accordingly into a new Linked List

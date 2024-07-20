@@ -26,8 +26,9 @@ using DSAPrep;
 //Array 3
 //int[] array = { 1, 2, 3 };
 //Console.WriteLine("------------------Array 3-----------------------");
-//array = Array3.getNextPermutation(array);
-//Array3.printArray(array);
+//List<List<int>> ds = new List<List<int>>();
+//ds = Array3.getNextPermutation(array,0,ds);
+//Array3.printArray(ds);
 
 //int[] array1 = { 1, 2, 3 };
 //List<List<int>> list = new List<List<int>>();
@@ -157,6 +158,54 @@ using DSAPrep;
 
 //Console.WriteLine($"Lexicographic string is {Weekly406.getSmallestString("20")}");
 
+//int cost = Weekly406.CakeCutting1(3, 2, [1,3] , [5]);
+//Console.WriteLine(cost);
+
+
 //Array4_1
-int[] array = {2,6,5,8,11};
-Array4_1.Sum2Array2(array, 15);
+//int[] array = {2,6,5,8,11};
+//Array4_1.Sum2Array2(array, 15);
+
+
+//Array4_2
+//int[] array = { 1, 0, -1, 0, -2, 2 };
+//Array4_2.GetQuadNumbers(array, 0);
+
+//Array4_3
+//int[] array = [100, 200, 1, 3, 2, 4, 5];
+//int maxcount = Array4_3.getLongestConsecutiveSequence(array);
+//Console.WriteLine($"The maximum count is : {maxcount}");
+
+//LinkedList1 2
+//LinkedList l1 = new LinkedList(1, null);
+//LinkedList l2 = new LinkedList(2, l1);
+//LinkedList l3 = new LinkedList(3, l2);
+//LinkedList l4 = new LinkedList(4, l3);
+//LinkedList l5 = new LinkedList(5, l4);
+
+//int middleElement = LinkedList1_2.getMiddleElement(l5);
+//Console.WriteLine($"The middle element is {middleElement}");
+
+
+//LinkedList1 3
+LinkedList l1 = new LinkedList(10, null);
+LinkedList l2 = new LinkedList(8, l1);
+LinkedList l3 = new LinkedList(4, l2);
+LinkedList l4 = new LinkedList(2, l3);
+
+LinkedList l5 = new LinkedList(14, null);
+LinkedList l6 = new LinkedList(11, l5);
+LinkedList l7 = new LinkedList(6, l6);
+LinkedList l8 = new LinkedList(3, l7);
+LinkedList l9 = new LinkedList(3, l8);
+LinkedList l10 = new LinkedList(1, l9);
+
+
+LinkedList head = LinkedList1_3.mergeSortedList(l4,l10);
+Console.WriteLine(head.value);
+
+
+
+
+
+
