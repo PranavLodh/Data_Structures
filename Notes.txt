@@ -102,3 +102,15 @@ Fast pointer should go two steps which slow pointer should move one step
 3.Problem Statement: Given two sorted linked lists, merge them to produce a combined sorted linked list. Return the head of the final linked list created.
 
 Create a pointer which will point current position of two LinkedList and check if current1 < current2 then insert the value accordingly into a new Linked List
+
+4.Problem Statement: Given a linked list and an integer N, the task is to delete the Nth node from the end of the linked list and print the updated linked list.
+
+Add as many nodes + 1 as the value of N and then make it as head1 and go till head becomes null then head1.next = head1.next.next
+
+5.Problem Statement: Given the heads of two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
+
+Loop through both the LinkedList heads and add and maintain a borrow If borrow present add borrow to next sum and at the end maintain the same borrow and add 1 at the last
+
+6.Problem Statement: Write a function to delete a node in a singly-linked list. You will not be given access to the head of the list instead, you will be given access to the node to be deleted directly. It is guaranteed that the node to be deleted is not a tail node in the list.
+
+Replace current Node Value to next node's value and then point current node's next to next node's next

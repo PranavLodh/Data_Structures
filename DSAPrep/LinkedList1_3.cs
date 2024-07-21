@@ -8,6 +8,8 @@ namespace DSAPrep
 {
     internal class LinkedList1_3
     {
+        //Problem Statement: Given two sorted linked lists, merge them to produce a combined sorted linked list.
+        //Return the head of the final linked list created.
         public static LinkedList mergeSortedList(LinkedList head1, LinkedList head2)
         {
             LinkedList head = null;

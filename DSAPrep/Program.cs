@@ -188,21 +188,67 @@ using DSAPrep;
 
 
 //LinkedList1 3
-LinkedList l1 = new LinkedList(10, null);
-LinkedList l2 = new LinkedList(8, l1);
-LinkedList l3 = new LinkedList(4, l2);
-LinkedList l4 = new LinkedList(2, l3);
+//LinkedList l1 = new LinkedList(10, null);
+//LinkedList l2 = new LinkedList(8, l1);
+//LinkedList l3 = new LinkedList(4, l2);
+//LinkedList l4 = new LinkedList(2, l3);
 
-LinkedList l5 = new LinkedList(14, null);
-LinkedList l6 = new LinkedList(11, l5);
+//LinkedList l5 = new LinkedList(14, null);
+//LinkedList l6 = new LinkedList(11, l5);
+//LinkedList l7 = new LinkedList(6, l6);
+//LinkedList l8 = new LinkedList(3, l7);
+//LinkedList l9 = new LinkedList(3, l8);
+//LinkedList l10 = new LinkedList(1, l9);
+
+
+//LinkedList head = LinkedList1_3.mergeSortedList(l4,l10);
+//Console.WriteLine(head.value);
+
+//LinkedList l1 = new LinkedList(10, null);
+//LinkedList l2 = new LinkedList(8, l1);
+//LinkedList l3 = new LinkedList(4, l2);
+//LinkedList l4 = new LinkedList(2, l3);
+
+//LinkedList head = LinkedList1_4.removeNode(l4, 7);
+
+//LinkedList1_5
+//LinkedList l1 = new LinkedList(9, null);
+//LinkedList l2 = new LinkedList(9, l1);
+//LinkedList l3 = new LinkedList(9, l2);
+//LinkedList l4 = new LinkedList(9, l3);
+
+
+//LinkedList l6 = new LinkedList(9, null);
+//LinkedList l7 = new LinkedList(9, l6);
+//LinkedList l8 = new LinkedList(9, l7);
+//LinkedList l9 = new LinkedList(9, l8);
+//LinkedList l10 = new LinkedList(9, l9);
+//LinkedList l11 = new LinkedList(9, l10);
+//LinkedList l12 = new LinkedList(9, l11);
+
+//long sum = LinkedList1_5.addTwoNumbers(l4, l12);
+
+//LinkedList l6 = new LinkedList(9, null);
+//LinkedList l7 = new LinkedList(9, l6);
+//LinkedList l8 = new LinkedList(9, l7);
+//LinkedList l9 = new LinkedList(9, l8);
+//LinkedList l10 = new LinkedList(9, l9);
+//LinkedList l11 = new LinkedList(9, l10);
+//LinkedList l12 = new LinkedList(9, l11);
+
+
+//LinkedList1_6
+LinkedList l6 = new LinkedList(7, null);
 LinkedList l7 = new LinkedList(6, l6);
-LinkedList l8 = new LinkedList(3, l7);
-LinkedList l9 = new LinkedList(3, l8);
-LinkedList l10 = new LinkedList(1, l9);
+LinkedList l8 = new LinkedList(5, l7);
+LinkedList l9 = new LinkedList(4, l8);
+LinkedList l10 = new LinkedList(3, l9);
+LinkedList l11 = new LinkedList(2, l10);
+LinkedList l12 = new LinkedList(1, l11);
+LinkedList1_6.deleteNode(l9, l12);
 
+//Console.WriteLine($"The sum is {sum}");
 
-LinkedList head = LinkedList1_3.mergeSortedList(l4,l10);
-Console.WriteLine(head.value);
 
 
 
