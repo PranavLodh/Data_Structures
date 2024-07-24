@@ -114,3 +114,24 @@ Loop through both the LinkedList heads and add and maintain a borrow If borrow p
 6.Problem Statement: Write a function to delete a node in a singly-linked list. You will not be given access to the head of the list instead, you will be given access to the node to be deleted directly. It is guaranteed that the node to be deleted is not a tail node in the list.
 
 Replace current Node Value to next node's value and then point current node's next to next node's next
+
+-----------------------------------------------------------------------------------------------
+LinkedList 2
+1.Problem Statement: Given the heads of two singly linked-lists headA and headB, return the node at which the two lists intersect. If the two linked lists have no intersection at all, return null.
+
+Parse through first LinkedList and internally parse through second LinkedList and check if both the values are equal .If equal return the node else at the end return null.
+
+Parse the first LinkedList and put the hashCodes of its nodes into a List and then parse the second LinkedList and check if HashCodes are present if present return the node. Else finally return null
+
+2.Detect a Cycle in a Linked List
+
+Use two pointers Fast and slow and check if fast and slow pointer meet at one point . If meets return true else return false.
+
+
+4.Check if the LinkedList is Palindrome or not
+
+Use a Stack and Push the values into stack , then parse the Linkedlist again and pop the stack. If values are equal, Then LinkedList is Palindrom else not.
+
+5.Problem Statement: Given the head of a linked list that may contain a cycle, return the starting point of that cycle. If there is no cycle in the linked list return null.
+
+Parse the linkedlist and store the hashcodes in a List and check if HashCode already exist, If exists return the node else at the end return null.

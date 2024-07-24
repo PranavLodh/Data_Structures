@@ -238,16 +238,68 @@ using DSAPrep;
 
 
 //LinkedList1_6
-LinkedList l6 = new LinkedList(7, null);
-LinkedList l7 = new LinkedList(6, l6);
-LinkedList l8 = new LinkedList(5, l7);
-LinkedList l9 = new LinkedList(4, l8);
-LinkedList l10 = new LinkedList(3, l9);
-LinkedList l11 = new LinkedList(2, l10);
-LinkedList l12 = new LinkedList(1, l11);
-LinkedList1_6.deleteNode(l9, l12);
+//LinkedList l6 = new LinkedList(7, null);
+//LinkedList l7 = new LinkedList(6, l6);
+//LinkedList l8 = new LinkedList(5, l7);
+//LinkedList l9 = new LinkedList(4, l8);
+//LinkedList l10 = new LinkedList(3, l9);
+//LinkedList l11 = new LinkedList(2, l10);
+//LinkedList l12 = new LinkedList(1, l11);
+//LinkedList1_6.deleteNode(l9, l12);
 
 //Console.WriteLine($"The sum is {sum}");
+
+
+//LinkedList2_1
+//LinkedList l5 = new LinkedList(4, null);
+//LinkedList l4 = new LinkedList(2, l5);
+//LinkedList l3 = new LinkedList(1, l4);
+//LinkedList l2 = new LinkedList(3, l3);
+//LinkedList l1 = new LinkedList(1, l2);
+
+
+
+//LinkedList l6 = new LinkedList(3, l4);
+
+//LinkedList node = LinkedList2_1.getCommonNode(l1, l6);
+//LinkedList node = LinkedList2_1.getCommonNode2(l1, l6);
+//Console.WriteLine("The common Node is " +  node.value);
+
+
+//LinkedList2_1
+//LinkedList l5 = new LinkedList(4, null);
+//LinkedList l4 = new LinkedList(2, l5);
+//LinkedList l3 = new LinkedList(1, l4);
+//LinkedList l2 = new LinkedList(3, l3);
+//LinkedList l1 = new LinkedList(1, l2);
+//l5.next = l3;
+
+
+//bool isCyclic = LinkedList2_2.isCyclic(l1);
+//Console.WriteLine($"The Linked is Cyclic : {isCyclic}");
+
+//LinkedList2_4
+
+//LinkedList l5 = new LinkedList(1, null);
+//LinkedList l4 = new LinkedList(2, l5);
+//LinkedList l3 = new LinkedList(3, l4);
+//LinkedList l2 = new LinkedList(2, l3);
+//LinkedList l1 = new LinkedList(1, l2);
+//bool isPalindrome = LinkedList2_4.isPalindrome(l1);
+//Console.WriteLine($"Is Palindrome : {isPalindrome}");
+
+
+//LinkedList2_5
+LinkedList l5 = new LinkedList(5, null);
+LinkedList l4 = new LinkedList(4, l5);
+LinkedList l3 = new LinkedList(3, l4);
+LinkedList l2 = new LinkedList(2, l3);
+LinkedList l1 = new LinkedList(1, l2);
+//l5.next = l3;
+
+
+LinkedList startingPoint = LinkedList2_5.getStartPoint(l1);
+Console.WriteLine($"The starting point of Linked List is {(startingPoint != null ? startingPoint.value:0)}");
 
 
 
